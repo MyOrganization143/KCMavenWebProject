@@ -12,7 +12,7 @@ spec:
         name: pragimtech
     spec:
       containers:
-      - image: pragimtech:1.0
+      - image: kubernetes
         name: pragimtech
         ports:
         - name: pragimtech
