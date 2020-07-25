@@ -12,7 +12,7 @@ spec:
         name: pragimtech
     spec:
       containers:
-      - image: kubernetes
+      - image: kasareddy143/devopsworkflow
         name: pragimtech
         ports:
         - name: pragimtech
