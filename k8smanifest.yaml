@@ -9,7 +9,7 @@ spec:
   template:
     metadata:
       labels:
-        name: pragimtech
+        name: venki
     spec:
       containers:
       - image: kasareddy143/devopsworkflow
