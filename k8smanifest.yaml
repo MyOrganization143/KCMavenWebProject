@@ -2,8 +2,8 @@ apiVersion: v1
 kind: ReplicationController
 metadata:
   labels:
-    name: pragimtech
-  name: pragimtech
+    name: venki
+  name: venki
 spec:
   replicas: 1
   template:
@@ -13,21 +13,21 @@ spec:
     spec:
       containers:
       - image: kasareddy143/devopsworkflow
-        name: pragimtech
+        name: venki
         ports:
-        - name: pragimtech
+        - name: venki
           containerPort: 8080      
 ---
 # Node Port Service
 apiVersion: v1
 kind: Service
 metadata:
-  name: pragimtech
+  name: venki
   labels:
-    app: pragimtech
+    app: venki
 spec:
   selector:
-    app: pragimtech
+    app: venki
   type: NodePort
   ports:
   - nodePort: 31000
