@@ -30,7 +30,7 @@ spec:
     app: venki
   type: NodePort
   ports:
-  - nodePort: 31001
+  - nodePort: 31002
     port: 8080
     targetPort: 8080
 
