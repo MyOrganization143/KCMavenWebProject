@@ -81,13 +81,13 @@
    <distributionManagement>
         <repository>
           <id>nexus</id>
-          <name>KC Tech Releases Nexus Repository</name>
-          <url>http://13.233.55.160:8081/repository/kc-maven-release/</url>
+          <name>my project</name>
+          <url>http://18.221.98.123:8081/repository/FirstProject/</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
-          <name>KC Tech Snapshot Nexus Repository </name>
-           <url>http://13.233.55.160:8081/repository/kc-maven-snapshot/</url>
+          <name>my project</name>
+           <url>http://18.221.98.123:8081/repository/myprojectforsnopshot/</url>
         </snapshotRepository>
    </distributionManagement>
 	
