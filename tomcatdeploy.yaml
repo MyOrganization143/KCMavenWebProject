@@ -4,5 +4,5 @@
   tasks:
     - name: Deploy war to tomcat
       copy:
-        src: /var/lib/jenkins/workspace/Second_flow/target/MySecondFlow-1.0-SNAPSHOT.war
+        src: /var/lib/jenkins/workspace/Second_flow/target/MySecondFlow-1.0.war
         dest: /opt/apache-tomcat-8.5.57/webapps
